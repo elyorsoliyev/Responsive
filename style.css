@@ -1,0 +1,118 @@
+/* open-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v35-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* open-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/open-sans-v35-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  *,
+  *::before,
+  *::after{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+  }
+html{
+  height: 100%;
+  
+} 
+
+a{
+  text-decoration: none;
+  display: inline-block;
+} 
+
+img{
+  display: flex;
+  object-fit: cover;
+}
+
+ul{
+  list-style: none;
+}
+
+body{
+  font-family: 'Open-sans',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.79px;
+  letter-spacing: 1.2%;
+  background-color: rgb(148, 223, 227);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1224px;
+  background-color: #202842;
+  border-radius: 8px;
+}
+
+.wrapper-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.wrapper-item {
+  width: 100%;
+  max-width: 360px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #fff;
+  padding-top: 16px;
+  border-radius: 8px;
+  
+}
+
+.wrapper-image {
+  border-radius: 8px;
+  margin-bottom: 16px;
+  
+}
+
+.wrapper-item-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27.24px;
+  color: #009AF0;
+
+}
+
+.wrapper-item-text {
+  color: #1E1E1E;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.wrapper-item-btn {
+  color: #fff;
+  background-color: #009AF0;
+  padding:8px 16px ;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.wrapper-item-btn:hover{
+  background-color: #1c4c68 ;
+}
+
+.wrapper-item-btn:active{
+  color: #009AF0;
+  background-color: #fff;
+  border:2px dotted #009AF0;
+}
